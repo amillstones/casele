@@ -63,3 +63,27 @@ body {
         border-radius: 0;
     }
 }
+
+/* unvisited link */
+a:link {
+  color: Maroon !important;
+  text-decoration:none !important;
+}
+
+/* visited link */
+a:visited {
+  color: Peru !important;
+  text-decoration:none !important;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink !important;
+  text-decoration: underline !important;
+}
+
+/* selected link */
+a:active {
+  color: Maroon !important;
+  text-decoration:none !important;
+}
